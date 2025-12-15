@@ -5,6 +5,7 @@ int main()
 {
 	cout << "Selamat Datang di Toko Unisba Blitar" << endl;
 	cout << "====================================" << endl;
+	cout<<"\n";
 
 	double harga, diskon, jumlahdiskon, hargasetelahdiskon;
 
@@ -26,3 +27,4 @@ int main()
 	return 0;
 
 }
+
