@@ -15,11 +15,14 @@ int main()
 	cout << "Diskon Barang(%)=" << endl;
 	cin >> diskon;
 
+	cout<<"Hasil::<<endl;
+		
 	jumlahdiskon = harga * (diskon / 100);
-	cout << "Jumlah Diskon=Rp" << jumlahdiskon << endl;
+	cout << "Jumlah diskon=Rp" << jumlahdiskon << endl;
 
 	hargasetelahdiskon = harga - jumlahdiskon;
 	cout << "Harga Setelah Diskon=Rp" << hargasetelahdiskon << endl;
 
 	return 0;
+
 }
